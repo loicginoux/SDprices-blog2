@@ -17,6 +17,7 @@
 	},
 	"dependencies": {
 		"@astrojs/alpinejs": "^0.3.1",
+		"@astrojs/netlify": "^5.2.0",
 		"@astrojs/rss": "^4.0.1",
 		"@astrojs/sitemap": "^3.0.3",
 		"@astrojs/tailwind": "^5.0.3",
@@ -39,8 +40,8 @@
 		"@tailwindcss/typography": "^0.5.10",
 		"@vite-pwa/assets-generator": "^0.0.11",
 		"@vite-pwa/astro": "^0.2.0",
-		"prettier-plugin-astro": "^0.12.2",
 		"prettier": "3.1.0",
+		"prettier-plugin-astro": "^0.12.2",
 		"rehype": "^13.0.1",
 		"sharp": "^0.33.0",
 		"workbox-window": "^7.0.0"
