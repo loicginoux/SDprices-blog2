@@ -1,5 +1,5 @@
 ---
-title: sdsadasdf asdg asdgsdfgh sdfg hsdfg s
+title: My first test post Loic
 draft: false
 author: asdasd
 tags:
