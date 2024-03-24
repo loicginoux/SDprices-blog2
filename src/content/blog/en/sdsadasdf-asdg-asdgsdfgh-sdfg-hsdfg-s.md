@@ -1,5 +1,5 @@
 ---
-title: My first test post Loic
+title: My first test post Loic2
 draft: false
 author: asdasd
 tags:
