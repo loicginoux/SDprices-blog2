@@ -6,26 +6,26 @@ import { localizePath } from "astro-i18next";
 import { t } from "i18next";
 
 export const menuitems = [
-	{
-		title: "Sub items",
-		children: [
-			{ title: "Subitem 1", path: "#" },
-			{ title: "Subitem 2", path: "#" },
-			{ title: "Subitem 3", path: "#" },
-		],
-	},
-	{
-		title: "header.pricing",
-		path: "/pricing",
-	},
+	// {
+	// 	title: "Sub items",
+	// 	children: [
+	// 		{ title: "Subitem 1", path: "#" },
+	// 		{ title: "Subitem 2", path: "#" },
+	// 		{ title: "Subitem 3", path: "#" },
+	// 	],
+	// },
+	// {
+	// 	title: "header.pricing",
+	// 	path: "/pricing",
+	// },
 	{
 		title: "header.blog",
 		path: "/blog",
 	},
-	{
-		title: "header.contact",
-		path: "/contact",
-	},
+	// {
+	// 	title: "header.contact",
+	// 	path: "/contact",
+	// },
 ];
 ---
 
@@ -150,10 +150,10 @@ export const menuitems = [
 			}
 		</div>
 		<div class="mt-4 md:mt-0 flex flex-col md:flex-row gap-4">
-			<Link href="/login" style="outline" class="md:px-3 md:py-2 leading-6">
+			<Link href="/login" style="outline" class="md:px-3 md:py-2 leading-6 invisible">
 				{t("header.secondary_button_text")}
 			</Link>
-			<Link href="https://github.com/zankhq/astros" class="md:px-3 md:py-2 leading-6">
+			<Link href="https://github.com/zankhq/astros" class="md:px-3 md:py-2 leading-6 invisible">
 				{t("header.primary_button_text")}
 			</Link>
 		</div>
