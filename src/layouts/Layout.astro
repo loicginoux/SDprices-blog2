@@ -4,7 +4,6 @@ import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
 import { HeadHrefLangs } from "astro-i18next/components";
 import i18next from "i18next";
-import { pwaInfo } from "virtual:pwa-info";
 import "@fontsource-variable/inter";
 import { ViewTransitions } from "astro:transitions";
 
@@ -69,9 +68,6 @@ const makeTitle = title ? title + " | " + "Astros" : "Astros - Starter Template 
 			document.removeEventListener("astro:after-swap", handleThemeChange);
 			document.addEventListener("astro:after-swap", handleThemeChange);
 		</script>
-
-		{pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
-		<script src="/src/pwa.ts"></script>
 	</head>
 	<body class="dark:bg-stone-950">
 		<Navbar />
