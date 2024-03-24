@@ -6,7 +6,6 @@ import { autolinkConfig } from "./plugins/rehype-autolink-config";
 import rehypeSlug from "rehype-slug";
 import astroI18next from "astro-i18next";
 import alpinejs from "@astrojs/alpinejs";
-import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
@@ -31,5 +30,5 @@ export default defineConfig({
     contentCollectionCache: true
   },
   // output: "server",
-  adapter: netlify()
+  // adapter: netlify()
 });
