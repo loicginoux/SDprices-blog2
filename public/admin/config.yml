@@ -6,6 +6,7 @@ backend:
     name: "github"
     repo: loicginoux/SDprices-blog2
     branch: main
+    base_url: https://sveltia-cms-auth.lginoux.workers.dev/
     automatic_deployments: false
 
 media_folder: "public/images"
