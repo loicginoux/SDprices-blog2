@@ -37,10 +37,7 @@ collections:
             name: "author"
             widget: "string"
             i18n: "duplicate"
-          - label: "Tags"
-            name: "tags"
-            widget: "list"
-            i18n: true
+            required: false
           - label: "Image"
             name: "image"
             widget: "object"
@@ -60,7 +57,7 @@ collections:
           - label: "Category"
             name: "category"
             widget: "select"
-            options: ["Tutorials", "News", "Reviews", "Frameworks"]
+            options: ["Tutorials", "News", "Reviews", "Frameworks", "Others"]
             i18n: "duplicate"
           - name: "body"
             widget: "markdown"
