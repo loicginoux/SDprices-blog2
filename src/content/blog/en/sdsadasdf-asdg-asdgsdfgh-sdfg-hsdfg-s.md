@@ -5,7 +5,7 @@ author: asdasd
 tags:
   - decapcms
 image:
-  src: /images/decapcms.png
+  src: /images/blog/decapcms.png
   alt: sdfgsdf gsdfg
 snippet: asd sdfg sdfg sdf gsdfg sdf g
 publishDate: 2023-07-01 23:14
