@@ -14,7 +14,7 @@ category: News
 dfgsdfg jdf h;sjfg sdgf
 dfgsdfop jsdfg sdfh
 
-[img]/blog/images/decapcms.png[/img]
+![img]/blog/images/decapcms.png[/img]
 
 sdf
 s dfj s
