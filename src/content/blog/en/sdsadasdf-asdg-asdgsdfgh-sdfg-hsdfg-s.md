@@ -14,7 +14,8 @@ category: News
 dfgsdfg jdf h;sjfg sdgf
 dfgsdfop jsdfg sdfh
 
-![img]/blog/images/decapcms.png[/img]
+
+![Texte alternatif](/blog/images/decapcms.png "Titre de l'image").
 
 sdf
 s dfj s
