@@ -3,7 +3,7 @@ title: "Capturing Adventure: The Top Memory Cards for GoPro Cameras"
 draft: false
 author: ""
 image:
-  src: /images/blog/gopro-hero8-black-sd-card-01-800x450-2x.jpg
+  src: /blog/images/gopro-hero8-black-sd-card-01-800x450-2x.jpg
   alt: go pro hero8 sd cards
 snippet: GoPro cameras are the go-to choice for adventurers and action enthusiasts, capturing stunning footage in extreme conditions. To ensure your GoPro records every thrilling moment, you need a memory card that can keep up. In this article, we'll explore the best memory cards for GoPro cameras, enabling you to capture your adventures with confidence and clarity.
 publishDate: 2024-03-25T23:26

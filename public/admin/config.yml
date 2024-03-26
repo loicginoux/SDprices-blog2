@@ -9,8 +9,8 @@ backend:
     base_url: https://sveltia-cms-auth.lginoux.workers.dev
     automatic_deployments: false
 
-media_folder: "public/images/blog"
-public_folder: "/images/blog"
+media_folder: "public/blog/images"
+public_folder: "/blog/images"
 
 i18n:
     structure: "multiple_folders"

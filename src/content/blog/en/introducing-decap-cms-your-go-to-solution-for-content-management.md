@@ -5,7 +5,7 @@ author: Jon Doe
 tags:
   - decapcms
 image:
-  src: /images/blog/android-chrome-384x384.png
+  src: /blog/images/android-chrome-384x384.png
   alt: Decap CMS
 snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content management system offering developers a seamless way to manage content for static site generators.
 publishDate: 2023-07-01 23:14
