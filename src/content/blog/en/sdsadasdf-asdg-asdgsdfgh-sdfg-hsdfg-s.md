@@ -1,6 +1,6 @@
 ---
 title: WESH GRO
-draft: false
+draft: true
 author: asdasd
 tags:
   - decapcms
