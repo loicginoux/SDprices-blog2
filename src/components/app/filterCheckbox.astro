@@ -1,0 +1,30 @@
+---
+import { searchUrl } from "@utils/searchUrl";
+const { label, value } = Astro.props;
+---
+<li class="filter-block__option">
+  <input
+    type="checkbox"
+    name={value}
+    hx-post={searchUrl}
+    hx-trigger="click"
+    hx-ext='json-enc'
+    hx-target="#search-results"
+    hx-indicator=".htmx-indicator"
+    hx-include="closest form#search"
+    x-data={`{ ${value}: new URLSearchParams(location.search).get('${value}') || null }`}
+    x-model={value}
+    x-query-string-bool={value}
+  />
+  {
+    label && (
+      <span>{label}</span>
+    )
+  }
+  {
+    !label && (
+      <slot/>
+    )
+  }
+
+</li>

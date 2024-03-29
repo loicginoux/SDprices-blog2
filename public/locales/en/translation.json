@@ -10,8 +10,10 @@
 		"secondary_button_text": "Go to base version"
 	},
 	"header": {
+		"app": "App",
+    "faq": "Faq",
 		"features": "Features",
-		"pricing": "Pricing",
+    "pricing": "Pricing",
 		"blog": "Blog",
 		"contact": "Contacts",
 		"primary_button_text": "Download",

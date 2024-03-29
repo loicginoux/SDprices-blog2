@@ -33,6 +33,10 @@ collections:
             name: "draft"
             widget: "boolean"
             i18n: "duplicate"
+          - label: "Tags"
+            name: "tags"
+            widget: "list"
+            i18n: true
           - label: "Author"
             name: "author"
             widget: "string"
@@ -59,6 +63,21 @@ collections:
             widget: "select"
             options: ["Tutorials", "News", "Reviews", "Frameworks", "Others"]
             i18n: "duplicate"
+          - name: "body"
+            widget: "markdown"
+            label: "Post Body"
+            i18n: true
+    - name: "faqs"
+      i18n: true
+      label: "FAQs"
+      folder: "src/content/faq"
+      create: true
+      delete: true
+      fields:
+          - name: "title"
+            widget: "string"
+            label: "Post Title"
+            i18n: true
           - name: "body"
             widget: "markdown"
             label: "Post Body"

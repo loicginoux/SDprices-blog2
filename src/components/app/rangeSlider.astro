@@ -1,0 +1,68 @@
+---
+  import { searchUrl } from "@utils/searchUrl";
+  const {name, min, max, unit} = Astro.props;
+---
+
+<div  class:list={["range-slider", `range-slider--${name}`]} x-data={`rangeSlider('${name}', ${min}, ${max})`}>
+  <div class="range-slider__container">
+    <div
+      class="range-slider__track"
+      :style="`background: linear-gradient(to right, rgb(48,48,48,0.30) ${percent1()}% , #303030 ${percent1()}% , #303030 ${percent2()}%, rgb(48,48,48,0.30) ${percent2()}%)`"></div>
+    <input type="range"
+      :min="min"
+      :max="max"
+      x-model=`${name}_min`
+      x-on:input.prevent='slideOne()'
+      hx-post={searchUrl}
+      hx-trigger="change"
+      hx-ext='json-enc'
+      hx-target="#search-results"
+      hx-indicator=".htmx-indicator"
+      hx-include="closest form#search"
+      x-query-string-int=`${name}_min`
+    />
+    <input type="range"
+      :min="min"
+      :max="max"
+      x-model=`${name}_max`
+      x-on:input.prevent='slideTwo()'
+      hx-post={searchUrl}
+      hx-trigger="change"
+      hx-ext='json-enc'
+      hx-target="#search-results"
+      hx-indicator=".htmx-indicator"
+      hx-include="closest form#search"
+      x-query-string-int=`${name}_max`
+    />
+  </div>
+  <div class="range-slider__values">
+    <div class="range-slider__value">
+      <input type="text"
+        x-model=`${name}_min`
+        name=`${name}_min`
+        hx-post={searchUrl}
+        hx-trigger="keyup delay:500ms"
+        hx-ext='json-enc'
+        hx-target="#search-results"
+        hx-indicator=".htmx-indicator"
+        hx-include="closest form#search"
+        x-query-string-int=`${name}_min`
+      />
+      <span>{unit}</span>
+    </div>
+    <div class="range-slider__value">
+      <input type="text"
+        x-model=`${name}_max`
+        name=`${name}_max`
+        hx-post={searchUrl}
+        hx-trigger="keyup delay:500ms"
+        hx-ext='json-enc'
+        hx-target="#search-results"
+        hx-indicator=".htmx-indicator"
+        hx-include="closest form#search"
+        x-query-string-int=`${name}_max`
+      />
+      <span>{unit}</span>
+    </div>
+  </div>
+</div>

@@ -1,23 +1,19 @@
 ---
 import { SEO } from "astro-seo";
-import Footer from "@components/footer.astro";
-import Navbar from "@components/navbar/navbar.astro";
 import { HeadHrefLangs } from "astro-i18next/components";
 import i18next from "i18next";
 import "@fontsource-variable/inter";
 import { ViewTransitions } from "astro:transitions";
 
 export interface Props {
-	title: string;
-	lang: string;
+  title: string;
+  lang: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 const resolvedImageWithDomain = new URL("/meta/opengraph.png", Astro.site).toString();
 
-// replaced dynamically
-const buildDate = __DATE__;
 
 const { title, lang = null } = Astro.props;
 
@@ -34,10 +30,9 @@ const makeTitle = title ? title + " | " + "Astros" : "SDprices.com";
 		<meta name="theme-color" content="#ffffff" />
 		<HeadHrefLangs />
 
-		<ViewTransitions />
-
 		<!-- Global CSS -->
-		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
 
 		<SEO
 			title={makeTitle}
@@ -55,30 +50,8 @@ const makeTitle = title ? title + " | " + "Astros" : "SDprices.com";
 				},
 			}}
 		/>
-
-		<script is:inline>
-			function handleThemeChange() {
-				if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-					document.documentElement.classList.add("dark");
-				} else {
-					document.documentElement.classList.remove("dark");
-				}
-			}
-			handleThemeChange();
-			document.removeEventListener("astro:after-swap", handleThemeChange);
-			document.addEventListener("astro:after-swap", handleThemeChange);
-		</script>
 	</head>
-	<body class="dark:bg-stone-950">
-		<Navbar />
+	<body>
 		<slot />
-		<Footer />
-		<style is:global>
-			/* Improve Page speed */
-			/* https://css-tricks.com/almanac/properties/c/content-visibility/ */
-			img {
-				content-visibility: auto;
-			}
-		</style>
 	</body>
 </html>

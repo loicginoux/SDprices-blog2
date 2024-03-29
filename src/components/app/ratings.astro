@@ -1,0 +1,22 @@
+---
+const { value } = Astro.props;
+const style = `width: ${value}%`;
+---
+<span class="ratings">
+  <div class="ratings__wrapper">
+    <span class="ratings__stars-active" style={style}>
+      <i class="fa fa-star" aria-hidden='true' />
+      <i class="fa fa-star" aria-hidden='true' />
+      <i class="fa fa-star" aria-hidden='true' />
+      <i class="fa fa-star" aria-hidden='true' />
+      <i class="fa fa-star" aria-hidden='true' />
+    </span>
+    <span class="ratings__stars-inactive">
+      <i class="fa fa-star-o" aria-hidden='true' />
+      <i class="fa fa-star-o" aria-hidden='true' />
+      <i class="fa fa-star-o" aria-hidden='true' />
+      <i class="fa fa-star-o" aria-hidden='true' />
+      <i class="fa fa-star-o" aria-hidden='true' />
+    </span>
+  </div>
+</span>

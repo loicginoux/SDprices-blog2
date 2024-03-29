@@ -1,0 +1,65 @@
+---
+import FilterBloc from "@components/app/filterBloc.astro";
+import RangeSlider from "@components/app/rangeSlider.astro";
+import FilterCheckbox from "@components/app/filterCheckbox.astro";
+import Ratings from "@components/app/ratings.astro";
+import { searchUrl } from "@utils/searchUrl";
+---
+<div class="l-sidebar">
+  <FilterBloc label="Buy from" displayKey="buyFrom">
+      <ul>
+        <FilterCheckbox value="buyFrom">
+          <img src="/images/prime.png" alt="Amazon Prime" />
+        </FilterCheckbox>
+        <FilterCheckbox label="Amazon.com" value="marketplace_1" />
+        <FilterCheckbox label="Amazon.fr" value="marketplace_2" />
+      </ul>
+  </FilterBloc>
+
+  <FilterBloc label="Format" displayKey="format">
+  </FilterBloc>
+  <FilterBloc label="Suitable for" displayKey="suitableFor">
+  </FilterBloc>
+  <FilterBloc label="Memory Type" displayKey="type">
+  </FilterBloc>
+  <FilterBloc label="Capacity" displayKey='capacity'>
+    <RangeSlider name="capacity" min="0" max="512" unit="Gb" />
+  </FilterBloc>
+  <FilterBloc label="Price" displayKey='price'>
+    <RangeSlider name="price" min="0" max="1000" unit="€" />
+  </FilterBloc>
+  <FilterBloc label="Brand" displayKey='brand'></FilterBloc>
+  <FilterBloc label="Condition" displayKey='condition'>
+    <ul>
+      <FilterCheckbox label="New" value='condition_new' />
+      <FilterCheckbox label="Used" value='condition_used' />
+    </ul>
+  </FilterBloc>
+  <FilterBloc label="Speed Class" displayKey="speedClass"></FilterBloc>
+  <FilterBloc label="Rating" displayKey="rating">
+    <ul>
+      <FilterCheckbox value='rating_20' ><Ratings value="20" /></FilterCheckbox>
+      <FilterCheckbox value='rating_40' ><Ratings value="40" /></FilterCheckbox>
+      <FilterCheckbox value='rating_60' ><Ratings value="60" /></FilterCheckbox>
+      <FilterCheckbox value='rating_80' ><Ratings value="80" /></FilterCheckbox>
+      <FilterCheckbox value='rating_100' ><Ratings value="100" /></FilterCheckbox>
+    </ul>
+  </FilterBloc>
+
+  <div class="sidebar-links">
+    <ul>
+      <li>
+        <a href="/blog">Blog</a>
+      </li>
+      <li>
+        <a href="#">How to choose my SD Card</a>
+      </li>
+      <li>
+        <a href="/faq">FAQ</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+    </ul>
+  </div>
+</div>

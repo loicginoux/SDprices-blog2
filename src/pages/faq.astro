@@ -1,0 +1,14 @@
+---
+import { changeLanguage } from "i18next";
+import Container from "@components/container.astro";
+import Faq from "@components/faq.astro";
+import Layout from "@layouts/Layout.astro";
+
+changeLanguage("en");
+---
+
+<Layout>
+	<Container>
+		<Faq />
+	</Container>
+</Layout>

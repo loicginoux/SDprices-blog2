@@ -1,0 +1,30 @@
+---
+  import { searchUrl } from "@utils/searchUrl";
+  let { label, key, displayKey } = Astro.props;
+
+  displayKey = displayKey || key;
+
+---
+<th
+  class="sorting"
+  hx-trigger="click"
+  hx-post={searchUrl}
+  x-data="{ local_sorting: sorting }"
+  hx-ext="json-enc"
+  hx-target="#search-results"
+  hx-indicator=".htmx-indicator"
+  hx-include="closest form#search"
+  @click={
+    `(local_sorting == '${key}__asc') ?
+      local_sorting = sorting = '${key}__desc' :
+      local_sorting = sorting = '${key}__asc'`
+  }
+  :class={
+    `{
+      'sorting_asc': (local_sorting == '${key}__asc'),
+      'sorting_desc': (local_sorting == '${key}__desc')
+    }`
+  }
+  x-show={`$store.columnsDisplay.${displayKey}`}>
+  {label}
+</th>
