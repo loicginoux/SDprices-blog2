@@ -1,0 +1,39 @@
+<template id="product-results" is:raw type="x-tmpl-mustache">
+  {{#products}}
+    <tr>
+      <td x-data='' x-show="$store.columnsDisplay.brand">{{brand.name}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.capacity">{{capacity}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.price">{{priceFormatted}}€</td>
+      <td x-data='' x-show="$store.columnsDisplay.pricePerGb">{{pricePerGbFormatted}}€</td>
+      <td x-data='' x-show="$store.columnsDisplay.format">{{format}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.type">{{type}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.speedClass">{{speedClass}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.speedRW">{{speedRW}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.condition">{{condition}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.eta">{{eta}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.rating">
+        <span class="ratings">
+          <div class="ratings__wrapper">
+            <span class="ratings__stars-active" style="width:{{rating}}%">
+              <i class="fa fa-star" aria-hidden='true'></i>
+              <i class="fa fa-star" aria-hidden='true'></i>
+              <i class="fa fa-star" aria-hidden='true'></i>
+              <i class="fa fa-star" aria-hidden='true'></i>
+              <i class="fa fa-star" aria-hidden='true'></i>
+            </span>
+            <span class="ratings__stars-inactive">
+              <i class="fa fa-star-o" aria-hidden='true'></i>
+              <i class="fa fa-star-o" aria-hidden='true'></i>
+              <i class="fa fa-star-o" aria-hidden='true'></i>
+              <i class="fa fa-star-o" aria-hidden='true'></i>
+              <i class="fa fa-star-o" aria-hidden='true'></i>
+            </span>
+          </div>
+        </span>
+      </td>
+      <td >
+        <a href="{{link}}">{{link}}</a>
+      </td>
+    </tr>
+  {{/products}}
+</template>

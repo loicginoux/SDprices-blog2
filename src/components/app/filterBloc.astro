@@ -1,9 +1,8 @@
 ---
   const {  label, displayKey } = Astro.props
 ---
-
-<div class="filter-block" :class={`{ 'filter-block--hidden': !$store.columnsDisplay.${displayKey} }`}>
-  <div class="filter-block__title" x-on:click="$store.columnsDisplay.toggle('{displayKey}')">
+<div x-data class="filter-block" :class={`{ 'filter-block--hidden': !$store.columnsDisplay.${displayKey} }`}>
+  <div class="filter-block__title" x-on:click={`$store.columnsDisplay.toggle('${displayKey}')`}>
     <div class="filter-block__icon-container">
       <i class="fa-solid fa-eye" x-show={`$store.columnsDisplay.${displayKey}`}></i>
       <i class="fa-solid fa-eye-slash" x-show={`!$store.columnsDisplay.${displayKey}`} x-cloak="x-cloak"></i>

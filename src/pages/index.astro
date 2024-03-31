@@ -3,12 +3,13 @@ import { changeLanguage } from "i18next";
 import MinimalLayout from "@layouts/MinimalLayout.astro";
 import Filters from "@components/app/filters.astro";
 import SortingTh from "@components/app/sortingTh.astro";
+import ProductsTemplate from "@components/app/productsTemplate.astro";
 import { searchUrl } from "@utils/searchUrl";
 changeLanguage("en");
 ---
 
 <MinimalLayout>
-  <div class="flex flex-col mt-3 ml-4 mr-4">
+  <div class="flex flex-col mt-3 ml-4 mr-4" hx-ext="client-side-templates">
     <h1 class="page-title">SDprices.com</h1>
     <div class="l-main-content">
       <form id="search"
@@ -17,6 +18,7 @@ changeLanguage("en");
         hx-ext="json-enc"
         hx-target="#search-results"
         hx-indicator=".htmx-indicator"
+        mustache-template="product-results"
         data-astro-reload
       >
         <Filters/>
@@ -56,9 +58,13 @@ changeLanguage("en");
     <div class="footer">
       <p>As an Amazon Associate I earn from qualifying purchases. Last updated at 2024-03-05 12:54:02 UTC. Prices and availability are accurate at the date/time indicated and are subject to change. Any price and availability information displayed at the time of purchase will apply to the purchase of the product. CERTAIN CONTENT THAT APPEARS ON THIS SITE COMES FROM AMAZON SERVICES LLC. THIS CONTENT IS PROVIDED 'AS IS' AND IS SUBJECT TO CHANGE OR REMOVAL AT ANY TIME.</p>
     </div>
+    <ProductsTemplate></ProductsTemplate>
     <script is:inline src="/js/htmx.1.9.10.js"></script>
     <script is:inline src="/js/htmx.1.9.10-ext-json-enc.js"></script>
     <script is:inline src="/js/script.js"></script>
     <script is:inline src="/js/alpinejs.3.x.x.min.js"></script>
+    <script is:inline src="/js/client-side-templates.js"></script>
+    <script is:inline src="https://unpkg.com/mustache@latest"></script>
+
   </div>
 </MinimalLayout>
