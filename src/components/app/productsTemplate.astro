@@ -1,10 +1,10 @@
 <template id="product-results" is:raw type="x-tmpl-mustache">
   {{#products}}
     <tr>
-      <td x-data='' x-show="$store.columnsDisplay.brand">{{brand.name}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.brand">{{brand}}</td>
       <td x-data='' x-show="$store.columnsDisplay.capacity">{{capacity}}</td>
-      <td x-data='' x-show="$store.columnsDisplay.price">{{priceFormatted}}€</td>
-      <td x-data='' x-show="$store.columnsDisplay.pricePerGb">{{pricePerGbFormatted}}€</td>
+      <td x-data='' x-show="$store.columnsDisplay.price">{{price}}€</td>
+      <td x-data='' x-show="$store.columnsDisplay.pricePerGb">{{price_per_gb}}€</td>
       <td x-data='' x-show="$store.columnsDisplay.format">{{format}}</td>
       <td x-data='' x-show="$store.columnsDisplay.type">{{type}}</td>
       <td x-data='' x-show="$store.columnsDisplay.speedClass">{{speedClass}}</td>
