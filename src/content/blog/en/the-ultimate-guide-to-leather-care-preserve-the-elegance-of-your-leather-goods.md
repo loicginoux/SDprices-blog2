@@ -15,7 +15,7 @@ First, it's crucial to understand that not all leather is created equal. From fu
 Cleaning: The First Step to Leather Care
 Dirt, dust, and spills—if not addressed—can cause permanent damage to leather. Cleaning leather regularly is key to its upkeep.
 
-Gentle Leather Cleaner: For a safe and effective cleaning, we recommend Avel Leather Soap. Its non-toxic formula is perfect for all leather types, gently removing dirt and grime without harming the leather.
+Gentle Leather Cleaner: For a safe and effective cleaning, we recommend [Avel Leather Soap. Its non-toxic formula is perfect for all leather types, gently removing dirt and grime without harming the leather.
 
 Microfiber Cloth: Always use a soft microfiber cloth when applying cleaner or conditioner to leather. It ensures an even application without risking scratches or damage. This pack of microfiber cloths is an excellent choice for any leather enthusiast.
 
