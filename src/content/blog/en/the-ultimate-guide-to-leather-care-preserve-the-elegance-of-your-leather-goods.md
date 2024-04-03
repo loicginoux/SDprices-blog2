@@ -1,6 +1,6 @@
 ---
 title: "The Ultimate Guide to Leather Care: Preserve the Elegance of Your Leather Goods"
-draft: true
+draft: false
 author: ""
 image:
   src: /blog/images/leather care.jpeg
