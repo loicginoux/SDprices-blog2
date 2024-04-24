@@ -5,7 +5,10 @@ author: Loic
 image:
   src: /blog/images/android-chrome-384x384.png
   alt: Decap CMS
-snippet: Lorem ipsum dolor sit amet
+snippet: |-
+  Lorem ipsum dolor sit amet
+
+  Lien nouvel onglet : [link](URL){:target="_blank"}
 publishDate: 2023-07-01 23:14
 category: Tutorials
 tags:
