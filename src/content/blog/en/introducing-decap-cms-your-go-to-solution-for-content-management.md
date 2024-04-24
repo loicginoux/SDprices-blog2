@@ -5,16 +5,15 @@ author: Loic
 image:
   src: /blog/images/android-chrome-384x384.png
   alt: Decap CMS
-snippet: |-
-  Lorem ipsum dolor sit amet
-
-  Lien nouvel onglet : [link](URL){:target="_blank"}
+snippet: Lorem ipsum dolor sit amet
 publishDate: 2023-07-01 23:14
 category: Tutorials
 tags:
   - test
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lien nouvel onglet : [link](URL){:target="_blank"}
+[Hello, world!](http://example.com/){target="_blank"}
+
 
 ## <a name="Headings"></a>Headings
 
