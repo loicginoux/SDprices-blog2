@@ -14,6 +14,7 @@ tags:
 Lien nouvel onglet : [link](URL){:target="_blank"}
 [Hello, world!](http://example.com/){target="_blank"}
 
+<a href="http://example.com/" target="_blank">un lien qui ouvre dans une autre fenêtre</a>
 
 ## <a name="Headings"></a>Headings
 
