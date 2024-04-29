@@ -2,13 +2,13 @@
   {{#products}}
     <tr>
       <td x-data='' x-show="$store.columnsDisplay.brand">{{brand}}</td>
-      <td x-data='' x-show="$store.columnsDisplay.capacity">{{capacity}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.capacity">{{capacity}} GB</td>
       <td x-data='' x-show="$store.columnsDisplay.price">{{price}}€</td>
       <td x-data='' x-show="$store.columnsDisplay.pricePerGb">{{price_per_gb}}€</td>
       <td x-data='' x-show="$store.columnsDisplay.format">{{format}}</td>
-      <td x-data='' x-show="$store.columnsDisplay.type">{{type}}</td>
-      <td x-data='' x-show="$store.columnsDisplay.speedClass">{{speedClass}}</td>
-      <td x-data='' x-show="$store.columnsDisplay.speedRW">{{speedRW}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.type">{{sd_type}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.speedClass">{{speed_class}}</td>
+      <td x-data='' x-show="$store.columnsDisplay.speedRW">{{speed_rw}}</td>
       <td x-data='' x-show="$store.columnsDisplay.condition">{{condition}}</td>
       <td x-data='' x-show="$store.columnsDisplay.eta">{{eta}}</td>
       <td x-data='' x-show="$store.columnsDisplay.rating">
@@ -32,7 +32,7 @@
         </span>
       </td>
       <td >
-        <a href="{{link}}">{{link}}</a>
+        <a href="{{link}}" target="_blank">{{link}}</a>
       </td>
     </tr>
   {{/products}}
