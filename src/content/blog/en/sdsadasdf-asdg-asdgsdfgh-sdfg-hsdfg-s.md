@@ -1,5 +1,5 @@
 ---
-title: WESH GRO
+title: WESH GROS
 draft: true
 author: asdasd
 tags:
