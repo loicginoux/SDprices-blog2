@@ -1,5 +1,5 @@
 ---
-title: new post 1
+title: new post
 draft: false
 tags:
   - test
