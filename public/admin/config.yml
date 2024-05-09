@@ -3,9 +3,9 @@ local_backend: true
 logo_url: /logo.svg
 
 backend:
-    name: "github"
-    repo: loicginoux/SDprices-blog2
+    name: github
     branch: main
+    repo: loicginoux/SDprices-front
     base_url: https://sveltia-cms-auth.lginoux.workers.dev
     automatic_deployments: false
 
