@@ -1,8 +1,6 @@
 ---
 title: The Ultimate Guide to Memory Cards for Photographers in 2024
 draft: false
-tags:
-  - memorycard photographer
 author: ""
 image:
   src: /blog/images/jeff-hopper-iCtJF-A5hvs-unsplash.jpg
@@ -10,6 +8,8 @@ image:
 snippet: In the ever-evolving world of photography, the humble memory card remains a pivotal component. As we step into 2024, the technology behind these tiny storage powerhouses has leaped forward, offering photographers more options than ever before. This guide is tailored for intermediate users looking to understand and make the most out of their memory cards.
 publishDate: 2024-05-14 11:38
 category: Others
+tags:
+  - memorycard photographer guide
 ---
 ### **Understanding Memory Card Types**
 
