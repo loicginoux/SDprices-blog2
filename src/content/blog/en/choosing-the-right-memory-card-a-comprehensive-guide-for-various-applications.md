@@ -32,11 +32,15 @@ Our comprehensive comparison table breaks down these specifications across vario
 - **IoT Devices**: Often utilizes smaller capacity cards but prioritizes reliability and durability.
 - **Mobile Phones**: Needs versatile microSD cards that balance speed and capacity.
 - **Dash Cams**: Prioritizes endurance and reliability for continuous recording.
-- **Audio Recording**: Requires moderate capacity and speed, focusing on reliable data storage.
+- **Audio Recording**: Requires moderate capacity and 
 
-CriteriaPhotographyGamingVideoDroneHome SecurityIoTMobile PhoneDash CamAudio RecordingFlash Memory TypeSD/CF/CFastmicroSDSD/CF/CFastmicroSDmicroSDSD/microSDmicroSDmicroSDSD/microSDMemory Storage Capacity16GB - 1TB32GB - 512GB64GB - 2TB32GB - 256GB32GB - 256GB4GB - 64GB16GB - 1TB32GB - 256GB8GB - 128GBSpeed Class (performance)Class 10, U3, V30-V90Class 10, U1-U3Class 10, U3, V60-V90Class 10, U3, V30Class 10, U1-U3Class 10, U1Class 10, U1-U3Class 10, U3, V30Class 10, U1Write SpeedUp to 300 MB/sUp to 100 MB/sUp to 500 MB/sUp to 160 MB/sUp to 90 MB/sUp to 85 MB/sUp to 100 MB/sUp to 100 MB/sUp to 95 MB/sRead SpeedUp to 300 MB/sUp to 100 MB/sUp to 500 MB/sUp to 160 MB/sUp to 90 MB/sUp to 85 MB/sUp to 100 MB/sUp to 100 MB/sUp to 95 MB/s
-
-
+| Criteria | Photography | Gaming | Video | Drone | Home Security | IoT | Mobile Phone | Dash Cam | Audio Recording |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Flash Memory Type | SD/CF/CFast | microSD | SD/CF/CFast | microSD | microSD | SD/microSD | microSD | microSD | SD/microSD |
+| Memory Storage Capacity | 16GB - 1TB | 32GB - 512GB | 64GB - 2TB | 32GB - 256GB | 32GB - 256GB | 4GB - 64GB | 16GB - 1TB | 32GB - 256GB | 8GB - 128GB |
+| Speed Class (performance) | Class 10, U3, V30-V90 | Class 10, U1-U3 | Class 10, U3, V60-V90 | Class 10, U3, V30 | Class 10, U1-U3 | Class 10, U1 | Class 10, U1-U3 | Class 10, U3, V30 | Class 10, U1 |
+| Write Speed | Up to 300 MB/s | Up to 100 MB/s | Up to 500 MB/s | Up to 160 MB/s | Up to 90 MB/s | Up to 85 MB/s | Up to 100 MB/s | Up to 100 MB/s | Up to 95 MB/s |
+| Read Speed | Up to 300 MB/s | Up to 100 MB/s | Up to 500 MB/s | Up to 160 MB/s | Up to 90 MB/s | Up to 85 MB/s | Up to 100 MB/s | Up to 100 MB/s | Up to 95 MB/s |
 
 ### **Conclusion**
 
