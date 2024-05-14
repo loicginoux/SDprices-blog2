@@ -34,7 +34,6 @@ Our comprehensive comparison table breaks down these specifications across vario
 - **Dash Cams**: Prioritizes endurance and reliability for continuous recording.
 - **Audio Recording**: Requires moderate capacity and speed, focusing on reliable data storage.
 
-
 CriteriaPhotographyGamingVideoDroneHome SecurityIoTMobile PhoneDash CamAudio RecordingFlash Memory TypeSD/CF/CFastmicroSDSD/CF/CFastmicroSDmicroSDSD/microSDmicroSDmicroSDSD/microSDMemory Storage Capacity16GB - 1TB32GB - 512GB64GB - 2TB32GB - 256GB32GB - 256GB4GB - 64GB16GB - 1TB32GB - 256GB8GB - 128GBSpeed Class (performance)Class 10, U3, V30-V90Class 10, U1-U3Class 10, U3, V60-V90Class 10, U3, V30Class 10, U1-U3Class 10, U1Class 10, U1-U3Class 10, U3, V30Class 10, U1Write SpeedUp to 300 MB/sUp to 100 MB/sUp to 500 MB/sUp to 160 MB/sUp to 90 MB/sUp to 85 MB/sUp to 100 MB/sUp to 100 MB/sUp to 95 MB/sRead SpeedUp to 300 MB/sUp to 100 MB/sUp to 500 MB/sUp to 160 MB/sUp to 90 MB/sUp to 85 MB/sUp to 100 MB/sUp to 100 MB/sUp to 95 MB/s
 
 
