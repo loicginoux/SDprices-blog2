@@ -32,7 +32,9 @@ Our comprehensive comparison table breaks down these specifications across vario
 - **IoT Devices**: Often utilizes smaller capacity cards but prioritizes reliability and durability.
 - **Mobile Phones**: Needs versatile microSD cards that balance speed and capacity.
 - **Dash Cams**: Prioritizes endurance and reliability for continuous recording.
-- **Audio Recording**: Requires moderate capacity and 
+- **Audio Recording**: Requires moderate capacity and speed, focusing on reliable data storage.
+
+
 
 | Criteria | Photography | Gaming | Video | Drone | Home Security | IoT | Mobile Phone | Dash Cam | Audio Recording |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
