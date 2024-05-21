@@ -8,34 +8,57 @@ import { searchUrl } from "@utils/searchUrl";
 <div class="l-sidebar">
   <FilterBloc label="Buy from" displayKey="buyFrom">
       <ul>
-        <FilterCheckbox value="buyFrom">
+        <!--FilterCheckbox value="buyFrom">
           <img src="/images/prime.png" alt="Amazon Prime" />
         </FilterCheckbox>
-        <FilterCheckbox label="Amazon.com" value="marketplace_1" />
+        <FilterCheckbox label="Amazon.com" value="marketplace_1" /-->
         <FilterCheckbox label="Amazon.fr" value="marketplace_2" />
       </ul>
   </FilterBloc>
 
   <FilterBloc label="Format" displayKey="format">
+    <ul>
+      <FilterCheckbox label="SD" value='format_sd' />
+      <FilterCheckbox label="MicroSD" value='format_micro_sd' />
+    </ul>
   </FilterBloc>
-  <FilterBloc label="Suitable for" displayKey="suitableFor">
-  </FilterBloc>
-  <FilterBloc label="Memory Type" displayKey="type">
+  <!--FilterBloc label="Suitable for" displayKey="suitableFor">
+  </FilterBloc -->
+  <FilterBloc label="Memory Type" displayKey="sd_type">
+    <ul>
+      <FilterCheckbox label="SDCS" value='sd_type_SDCS' />
+      <FilterCheckbox label="SDHC" value='sd_type_SDHC' />
+      <FilterCheckbox label="SDXC" value='sd_type_SDXC' />
+    </ul>
   </FilterBloc>
   <FilterBloc label="Capacity" displayKey='capacity'>
-    <RangeSlider name="capacity" min="0" max="512" unit="Gb" />
+    <RangeSlider name="capacity" min="0" max="1024" unit="Gb" />
   </FilterBloc>
   <FilterBloc label="Price" displayKey='price'>
     <RangeSlider name="price" min="0" max="1000" unit="€" />
   </FilterBloc>
-  <FilterBloc label="Brand" displayKey='brand'></FilterBloc>
+  <FilterBloc label="Brand" displayKey='brand'>
+    <ul>
+      <FilterCheckbox label="SanDisk" value='brand_SanDisk' />
+      <FilterCheckbox label="Nikon" value='brand_Nikon' />
+      <FilterCheckbox label="Sony" value='brand_Sony' />
+      <FilterCheckbox label="Lexar" value='brand_Lexar' />
+      <FilterCheckbox label="Kingston" value='brand_Kingston' />
+      <FilterCheckbox label="Samsung" value='brand_Samsung' />
+    </ul>
+  </FilterBloc>
   <FilterBloc label="Condition" displayKey='condition'>
     <ul>
       <FilterCheckbox label="New" value='condition_new' />
       <FilterCheckbox label="Used" value='condition_used' />
     </ul>
   </FilterBloc>
-  <FilterBloc label="Speed Class" displayKey="speedClass"></FilterBloc>
+  <FilterBloc label="Speed Class" displayKey="speed_class">
+    <FilterCheckbox label="v10" value='speed_class_v10' />
+    <FilterCheckbox label="v30" value='speed_class_v30' />
+    <FilterCheckbox label="v60" value='speed_class_v60' />
+    <FilterCheckbox label="v90" value='speed_class_v90' />
+  </FilterBloc>
   <FilterBloc label="Rating" displayKey="rating">
     <ul>
       <FilterCheckbox value='rating_20' ><Ratings value="20" /></FilterCheckbox>

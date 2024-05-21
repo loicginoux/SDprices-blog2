@@ -330,15 +330,15 @@ body {
 }
 
 .range-slider__value input {
-  width: 50px;
+  width: 55px;
+  text-align:right;
   border-radius: 5px;
-  padding: 2px 20px 2px 5px;
+  padding: 2px 22px 2px 5px;
   border-width: 1px;
   border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
 }
 
 .range-slider--price .range-slider__value input {
-  width: 50px;
   padding-right: 15px;
 }
 

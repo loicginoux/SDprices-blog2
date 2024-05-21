@@ -37,13 +37,13 @@ changeLanguage("en");
                 <SortingTh label="Brand" key="brand.name" displayKey="brand"/>
                 <SortingTh label="Capacity" key="capacity"/>
                 <SortingTh label="Price" key="price"/>
-                <th x-data="" x-show="$store.columnsDisplay.pricePerGb">Price per GB</th>
-                <th x-data="" x-show="$store.columnsDisplay.format">Format</th>
-                <th x-data="" x-show="$store.columnsDisplay.type">Type</th>
-                <th x-data="" x-show="$store.columnsDisplay.speedClass">Speed class</th>
-                <th x-data="" x-show="$store.columnsDisplay.speedRW">Speed R/W</th>
+                <SortingTh label="Price per GB" key="price_per_gb"/>
+                <SortingTh label="Format" key="format" />
+                <SortingTh label="Type" key="sd_type" />
+                <SortingTh label="Speed class" key="speed_class" />
+                <SortingTh label="Speed R/W" key="speed_rw" />
                 <SortingTh label="Condition" key="condition"/>
-                <th x-data="" x-show="$store.columnsDisplay.eta">ETA</th>
+                <SortingTh label="ETA" key="eta"/>
                 <SortingTh label="Rating" key="rating"/>
                 <th>Link</th>
               </tr>
