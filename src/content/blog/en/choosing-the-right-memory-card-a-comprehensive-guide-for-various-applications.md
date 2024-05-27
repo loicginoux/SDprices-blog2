@@ -34,6 +34,8 @@ Our comprehensive comparison table breaks down these specifications across vario
 - **Dash Cams**: Prioritizes endurance and reliability for continuous recording.
 - **Audio Recording**: Requires moderate capacity and speed, focusing on reliable data storage.
 
+
+
 | Criteria | Photography | Gaming | Video | Drone | Home Security | IoT | Mobile Phone | Dash Cam | Audio Recording |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Flash Memory Type | SD/CF/CFast | microSD | SD/CF/CFast | microSD | microSD | SD/microSD | microSD | microSD | SD/microSD |
