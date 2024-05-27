@@ -1,6 +1,6 @@
 ---
 title: "Leveling Up: The Impact of Memory Cards on Gaming Experience"
-draft: true
+draft: false
 tags:
   - "#gaming #sdcard #nintendo #switch #wii #sony #playstation #ps4 #ps5"
 author: ""
