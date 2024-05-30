@@ -1,8 +1,6 @@
 ---
 title: "Unleashing the Nikon D850: Top Memory Cards for Exceptional Performance"
 draft: false
-tags:
-  - "#nikon #d850 #d800 #d810 #sdcard"
 author: ""
 image:
   src: /blog/images/photo-1515014471266-a7396a8aff3f.avif
@@ -10,6 +8,12 @@ image:
 snippet: The Nikon D850 is a powerhouse among DSLR cameras, known for its exceptional image quality and robust features. To fully harness the capabilities of this remarkable camera, you need a memory card that can match its performance. In this article, we'll explore the best memory cards for the Nikon D850, ensuring your camera delivers outstanding results for your photography endeavors.
 publishDate: 2024-05-27 19:48
 category: Reviews
+tags:
+  - nikon
+  - d850
+  - d800
+  - d810
+  - sdcard
 ---
 ### **Introduction**
 
