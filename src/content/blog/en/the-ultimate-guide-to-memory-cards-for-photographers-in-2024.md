@@ -9,7 +9,9 @@ snippet: In the ever-evolving world of photography, the humble memory card remai
 publishDate: 2024-05-14 11:38
 category: Others
 tags:
-  - memorycard photographer guide
+  - memorycard
+  - photographer
+  - guide
 ---
 ### **Understanding Memory Card Types**
 
