@@ -1,8 +1,6 @@
 ---
 title: "Level Up Your Nintendo Switch: Top Memory Cards for Enhanced Gaming"
 draft: false
-tags:
-  - "#gaming #nintendo #switch #sdcard #wii #wiiu"
 author: ""
 image:
   src: /blog/images/photo-1615680022648-2db11101c73a.avif
@@ -10,6 +8,13 @@ image:
 snippet: The Nintendo Switch, with its versatile gaming experience and growing library of games, often requires additional storage beyond its built-in capacity. The right memory card can significantly enhance your gaming experience, allowing for more games, faster load times, and smoother performance. This article explores the best memory cards for the Nintendo Switch, ensuring you get the most out of your gaming console.
 publishDate: 2024-05-27 20:02
 category: Reviews
+tags:
+  - gaming
+  - nintendo
+  - switch
+  - sdcard
+  - wii
+  - wiiu
 ---
 ### **Choosing the Right Memory Card for Nintendo Switch**
 
