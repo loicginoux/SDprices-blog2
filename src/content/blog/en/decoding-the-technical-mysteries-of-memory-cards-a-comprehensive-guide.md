@@ -1,8 +1,6 @@
 ---
 title: "Decoding the Technical Mysteries of Memory Cards: A Comprehensive Guide"
 draft: false
-tags:
-  - "#sdcards #microsd #performance"
 author: ""
 image:
   src: /blog/images/photo-1602526429747-ac387a91d43b.avif
@@ -10,6 +8,10 @@ image:
 snippet: For many, memory cards are simply a means to store photos or videos. However, understanding the technical nuances of these tiny storage devices can significantly enhance your usage experience. This article delves into the technical aspects of memory cards, demystifying the terms and specifications that intermediate users encounter.
 publishDate: 2024-05-27 20:10
 category: Reviews
+tags:
+  - sdcards
+  - microsd
+  - performance
 ---
 ### **Introduction**
 
