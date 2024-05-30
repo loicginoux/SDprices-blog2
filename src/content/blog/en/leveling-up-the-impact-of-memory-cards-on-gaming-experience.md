@@ -1,8 +1,6 @@
 ---
 title: "Leveling Up: The Impact of Memory Cards on Gaming Experience"
 draft: false
-tags:
-  - "#gaming #sdcard #nintendo #switch #wii #sony #playstation #ps4 #ps5"
 author: ""
 image:
   src: /blog/images/photo-1550745165-9bc0b252726f.avif
@@ -13,6 +11,16 @@ snippet: |-
   In the dynamic world of gaming, memory cards play a crucial role in enhancing the overall experience. Whether it's for a console, a portable gaming device, or even a high-end PC, the right memory card can drastically improve game performance and storage capacity. This article explores how gamers can utilize memory cards to elevate their gaming sessions.
 publishDate: 2024-05-27 19:57
 category: Reviews
+tags:
+  - gaming
+  - sdcard
+  - nintendo
+  - switch
+  - wii
+  - sony
+  - playstation
+  - ps4
+  - ps5
 ---
 ### **Introduction**
 
