@@ -14,7 +14,7 @@ public_folder: "/blog/images"
 
 i18n:
     structure: "multiple_folders"
-    locales: ["en"]
+    locales: ["en", "fr"]
     default_locale: "en"
 
 collections:
@@ -45,7 +45,7 @@ collections:
           - label: "Image"
             name: "image"
             widget: "object"
-            i18n: true
+            i18n: "duplicate"
             fields:
                 - { label: Source, name: src, widget: image, i18n: "duplicate" }
                 - { label: Alt Text, name: alt, widget: string, i18n: true }

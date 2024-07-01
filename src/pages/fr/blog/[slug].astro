@@ -1,0 +1,82 @@
+---
+import i18next, { changeLanguage } from "i18next";
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import { Icon } from "astro-icon";
+import { localizePath } from "astro-i18next";
+import { getArticleReadingTime } from "@utils/blog";
+
+changeLanguage("fr");
+
+// Generate a new path for every collection post
+export async function getStaticPaths() {
+    changeLanguage('fr')
+    const blogEntries = await getCollection("blog");
+    var localizedBlogEntries = blogEntries.filter((entry) => entry.slug.startsWith(i18next.language));
+    return localizedBlogEntries.map((post) => {
+        let slug = post.slug;
+        slug = slug.substring(3).replaceAll("blog/", "");
+        return {
+            params: { slug: slug },
+            props: { post: post },
+        };
+    });
+}
+// Get the post directly from the prop on render
+const { post, lang } = Astro.props;
+const { data, render } = post;
+const { Content } = await render();
+const readTime = getArticleReadingTime(post.body);
+---
+
+<Layout title={post.data.title} lang={lang}>
+	<Container>
+		<div class="mx-auto prose prose-lg dark:prose-invert mt-14">
+			<a
+				href={localizePath(`/blog/category/${post.data.category?.toLowerCase()}`)}
+				class="text-blue-400 dark:text-stone-400 uppercase tracking-wider text-sm font-medium no-underline">
+				{post.data.category}
+			</a>
+			<h1 class="text-4xl mb-3 lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight dark:text-white">
+				{post.data.title}
+			</h1>
+			<div class="flex gap-2 items-center">
+				<div class="w-full md:w-auto flex flex-wrap gap-3">
+					{
+						(post.data.tags || []).map((tag) => (
+							<a href={localizePath(`/blog/tag/${tag?.toLowerCase()}`)} class="text-sm text-gray-500 dark:text-stone-300">
+								#{tag}
+							</a>
+						))
+					}
+				</div>
+			</div>
+			<div class="flex gap-2 mt-4 items-center flex-wrap md:flex-nowrap">
+				<span class="text-gray-400 dark:text-stone-400">
+					{post.data.author}
+				</span>
+				<span class="text-gray-400 dark:text-stone-400">•</span>
+				<span class="text-gray-400 dark:text-stone-400">
+					{readTime} min
+				</span>
+				<span class="text-gray-400 dark:text-stone-400">•</span>
+				<time class="text-gray-400 dark:text-stone-400" datetime={post.data.publishDate.toISOString()}>
+					{post.data.publishDate.toDateString()}
+				</time>
+			</div>
+		</div>
+
+		<div class="mx-auto prose prose-lg dark:prose-invert mt-6 dark:text-gray-200">
+			<Content />
+		</div>
+		<div class="mx-auto mt-20">
+			<a href={localizePath("/blog")}>
+				<div class="flex flex-row align-middle justify-center dark:text-stone-200">
+					<Icon name="tabler:chevron-left" class="w-6 h-6" />
+					<p class="ml-2">Back to blog</p>
+				</div>
+			</a>
+		</div>
+	</Container>
+</Layout>
